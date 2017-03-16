@@ -5,6 +5,8 @@ var Module = function (bot) {
   this.bot = bot;
   this.name = package.name;
   this.version = package.version;
+  // add channel names as trings to only allow certain channels
+  this.allowedChannels = [];
   this.help = function () {
     // RETURN HELP STRING FOR YOUR COMMANDS or AT LEAST YOUR COMMANDS Object.keys(this.commands)
     // For basic help add them to the package
