@@ -5,7 +5,7 @@ Also Update Package.json
 
 ## Usage
 
-    !install contactimpact/bot-example
+    !install MichaelErmer/bot-example
 
 ## Update
 
